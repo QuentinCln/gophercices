@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Choose Your Own Adventure</title>
+  </head>
+  <body class="first-color">
+    <div class="container">
+      <div>
+        <h1>Choose your path</h1>
+      </div>
+      <div class="container">
+        <div class="middle second-color padding-adventure">
+          <h2 class="center title-adventure">{{.Title}}</h2>
+          <div>
+            {{ range.Descriptions }}
+            <span>{{.}}</span>
+            {{ end }}
+          </div>
+        </div>
+        <div>
+          {{ if .Options }}
+          <div>
+            <h3 class="center">Choice:</h3>
+          </div>
+          {{ range.Options }}
+          <div>
+            <li>
+              <a href="/{{.Next}}">{{.Description}}</a>
+              {{ end }}
+            </li>
+          </div>
+          {{else}}
+          <h3 class="center">The End</h3>
+          {{ end }}
+        </div>
+        <div>
+          <div class="restart">
+            <a href="/">Restart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .first-color {
+        background-color: #fffbf9;
+      }
+      .second-color {
+        background-color: #fff0e8;
+      }
+      .middle {
+        max-width: 60%;
+      }
+      .center {
+        text-align: center;
+      }
+      .restart {
+        padding-top: 100%;
+      }
+      .padding-adventure {
+        padding: 2% 4% 6% 4%;
+      }
+      .title-adventure {
+        padding: 0% 0% 6% 0%;
+      }
+      li {
+        padding: 0% 0% 6% 0%;
+      }
+    </style>
+  </body>
+</html>

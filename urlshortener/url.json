@@ -1,0 +1,7 @@
+[
+  { "path": "/go", "url": "https://golang.org/doc/" },
+  {
+    "path": "/install",
+    "url": "https://golang.org/doc/install"
+  }
+]
