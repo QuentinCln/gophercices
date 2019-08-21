@@ -1,1 +1,1 @@
-./bin -filename=${"CSVFileName"} -timer=${second}
+./quiz -filename=${"CSVFileName"} -timer=${second}
