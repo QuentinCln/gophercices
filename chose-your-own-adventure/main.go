@@ -14,7 +14,7 @@ import (
 func main() {
 	fileName := flag.String("filename", "adventure.json", "JSON file that contains the adventure")
 	htmlFile := flag.String("htmlfile", "adventure.html", "HTML file that contains the template")
-	
+	flag.Parse()
 	htmlTemplate := template.Must(template.ParseFiles(*htmlFile))
 	story, err := parserAdventure.ParseAdventure(*fileName)
 	if err != nil {

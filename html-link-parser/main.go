@@ -7,29 +7,8 @@ import (
 	"strings"
 	"encoding/json"
 	"io/ioutil"
+	"flag"
 )
-
-// TEST =>
-var exampleHtml = `
-<html>
-<body>
-  <h1>Hello!</h1>
-  <div>
-	<a href="/other-page">
-		A link to another page
-		<span> some span  </span>
-	</a>
-  </div>
-  <a href="/page-two">A link to a second page
-	<div>
-	  <a>
-		  test
-	  </a>
-	</div>	
-  </a>
-  <a></a>
-</body>
-</html>` 
 
 type Link struct {
 	Href string
@@ -43,29 +22,21 @@ func getHtml(url string) *html.Node {
 	}
 	defer resp.Body.Close()
 	htmlNode, err := html.Parse(resp.Body)
-	if err != nil { // Invalid html
+	if err != nil {
 		panic(err)
 	}
-	fmt.Println(*htmlNode)
 	return htmlNode
-}
-
-func isLink(doc *html.Node) bool {
-	if doc.Type == html.ElementNode && doc.Data == "a" {
-		return true
-	} 
-	return false
 }
 
 func getTextFromNode(node *html.Node) (string) {
 	if node.Type == html.TextNode {
-		return strings.TrimSpace(node.Data)
+		return strings.TrimSpace(node.Data) + " "
 	}
 	if node.Type != html.ElementNode {
 		return "EMPTY"
 	}
 	var txt string
-	for child := node.FirstChild; child != nil; child = child.NextSibling { // go through hitNextLink
+	for child := node.FirstChild; child != nil; child = child.NextSibling {
 		txt += getTextFromNode(child)
 	}
 	return txt
@@ -84,30 +55,23 @@ func linkNodesToLinks(linkNodes []*html.Node) (links []Link) {
 	for _, node := range linkNodes {
 		var link Link
 		link.Href = getHrefFromNode(node)
-		link.Text = getTextFromNode(node)
+		txt := getTextFromNode(node)
+		if (len(txt) == 0) {
+			link.Text = txt
+		} else {
+			link.Text = txt[0:len(txt) -1]
+		}
 		links = append(links, link)
 	}
 	return links
 }
 
-func hitNextLink(node *html.Node) bool { // WIP
-	for child := node.FirstChild; child != nil; child = child.NextSibling {
-		if isLink(node) {
-			return false
-		}
-		isLastLink(child)
-	}
-	return true
-}
 
-func isLastLink(node *html.Node) bool { // WIP
-	for child := node.FirstChild; child != nil; child = child.NextSibling {
-		if isLink(node) {
-			return false
-		}
-		isLastLink(child)
-	}
-	return true
+func isLink(doc *html.Node) bool {
+	if doc.Type == html.ElementNode && doc.Data == "a" {
+		return true
+	} 
+	return false
 }
 
 func getLinkNodes(document *html.Node, out *int) (nodes []*html.Node) {
@@ -116,7 +80,7 @@ func getLinkNodes(document *html.Node, out *int) (nodes []*html.Node) {
 		return []*html.Node{document}
 	}
 	for child := document.FirstChild; child != nil; child = child.NextSibling {
-		nod := getLinkNodes(child, out) // go trhough isLastLink() before appenning
+		nod := getLinkNodes(child, out)
 		for _, n := range nod {
 			nodes = append(nodes, n)
 		}
@@ -137,21 +101,10 @@ func writeToJson(links []Link) {
 
 func main() {
 	test := 0
-
-	url := "https://www.google.com/search?q=t&oq=t+&aqs=chrome..69i57j69i59j69i60l2j69i61j69i60.695j0j4&sourceid=chrome&ie=UTF-8"
-	links := getLinkNodes(getHtml(url), &test)
-	fmt.Println(test)
-
-	// r := strings.NewReader(exampleHtml)
-	// htmlNode, err := html.Parse(r)
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// links := getLinkNodes(htmlNode, &test)
-	
-	fmt.Println("Number of links found:", test)
-	fmt.Printf("%+v\n", links)
+	url := flag.String("url", "https://golang.org/pkg/encoding/json/", "URL to parse")
+	flag.Parse()
+	links := getLinkNodes(getHtml(*url), &test)
+	fmt.Println("Number of link found:", test)
 	lks := linkNodesToLinks(links)
-	fmt.Printf("%+v\n", lks)
 	writeToJson(lks)
 }

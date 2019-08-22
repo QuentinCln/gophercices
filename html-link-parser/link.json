@@ -1,206 +1,1150 @@
 [
   {
-    "Href": "/?sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QOwgC",
-    "Text": "Google"
-  },
-  {
-    "Href": "/?output=search\u0026ie=UTF-8\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QPAgE",
-    "Text": "Google"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnms\u0026tbm=bks\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q_AUICCgB",
-    "Text": "Books"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnms\u0026tbm=nws\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q_AUICSgC",
-    "Text": "News"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnms\u0026tbm=vid\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q_AUICigD",
-    "Text": "Videos"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnms\u0026tbm=isch\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q_AUICygE",
-    "Text": "Images"
-  },
-  {
-    "Href": "/advanced_search",
-    "Text": "Search tools"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbm=vid\u0026tbs=dur:s\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIDQ",
-    "Text": "Short (0–4 min.)"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbm=vid\u0026tbs=dur:m\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIDg",
-    "Text": "Medium (4–20 min.)"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbm=vid\u0026tbs=dur:l\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIDw",
-    "Text": "Long (20+ min.)"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbs=qdr:h\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIEQ",
-    "Text": "Past hour"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbs=qdr:d\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIEg",
-    "Text": "Past 24 hours"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbs=qdr:w\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIEw",
-    "Text": "Past week"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbs=qdr:m\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIFA",
-    "Text": "Past month"
-  },
-  {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026source=lnt\u0026tbs=qdr:y\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIFQ",
-    "Text": "Past year"
-  },
-  {
-    "Href": "/search?q=t+\u0026ie=UTF-8\u0026source=lnt\u0026tbs=li:1\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QpwUIFw",
-    "Text": "Verbatim"
-  },
-  {
-    "Href": "/search?ie=UTF-8\u0026q=alaska+thunderfuck+the+t\u0026stick=H4sIAAAAAAAAAONgVuLVT9c3NEwuNi0qNk5KAwDoeakKEQAAAA\u0026sa=X\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q6RMwAXoECAkQAw",
-    "Text": "The T (Song by Alaska Thunderfuck)Artist:Alaska ThunderfuckFeatured artist:Adore Delano"
-  },
-  {
-    "Href": "/search?ie=UTF-8\u0026q=alaska+thunderfuck+the+t\u0026stick=H4sIAAAAAAAAAONgVuLVT9c3NEwuNi0qNk5KAwDoeakKEQAAAA\u0026sa=X\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q6RMwAXoECAkQBg",
+    "Href": "/",
     "Text": ""
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3Dy83x7MgzWOA\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QtwIwAnoECAgQAQ\u0026usg=AOvVaw2_FELtBTAcibNzHC2ODb3z",
-    "Text": "Ed Sheeran \u0026 Justin Bieber - I Don't Care [Official Video] - YouTubehttps://www.youtube.com › watch"
+    "Href": "/doc/",
+    "Text": "Documents"
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3Dy83x7MgzWOA\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QuAIwAnoECAgQAg\u0026usg=AOvVaw2K69xtGCkrObCcunAY-MhA",
-    "Text": ""
+    "Href": "/pkg/",
+    "Text": "Packages"
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3D9TQKyDD9Yig\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QtwIwA3oECAUQAQ\u0026usg=AOvVaw3V_EgvNGGCnfXT5aHOcylh",
-    "Text": "Mabel - Don't Call Me Up - YouTubehttps://www.youtube.com › watch"
+    "Href": "/project/",
+    "Text": "The Project"
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3D9TQKyDD9Yig\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QuAIwA3oECAUQAg\u0026usg=AOvVaw1qk45-t9WjkoYVZDBGLTer",
-    "Text": ""
+    "Href": "/help/",
+    "Text": "Help"
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3DCCSGelSCPGE\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QtwIwBHoECAoQAQ\u0026usg=AOvVaw1AlOK-11m5zGuBPwo_FNlz",
-    "Text": "Ed Sheeran \u0026 Justin Bieber - I Don't Care [Official Lyric Video ...https://www.youtube.com › watch"
+    "Href": "/blog/",
+    "Text": "Blog"
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3DCCSGelSCPGE\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QuAIwBHoECAoQAg\u0026usg=AOvVaw3YXHAda1kyc4vR_yLbuy0D",
-    "Text": ""
+    "Href": "https://play.golang.org/",
+    "Text": "Play"
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3D9Xw5VkCpxRg\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QtwIwBXoECAcQAQ\u0026usg=AOvVaw3fOcjpNeUmqrYDa94xFLa2",
-    "Text": "Alaska Thunderfuck - The T (feat. Adore Delano) [Official] - YouTubehttps://www.youtube.com › watch"
+    "Href": "#pkg-overview",
+    "Text": "Overview"
   },
   {
-    "Href": "/url?q=https://www.youtube.com/watch%3Fv%3D9Xw5VkCpxRg\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QuAIwBXoECAcQAg\u0026usg=AOvVaw0XN1CVePaTPLKX_SA68N7y",
-    "Text": ""
+    "Href": "#pkg-index",
+    "Text": "Index"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/I_Don%2527t_Care_(Ed_Sheeran_and_Justin_Bieber_song)\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QFjAGegQIAhAB\u0026usg=AOvVaw0DYv8-pomqeHTeswDwreUx",
-    "Text": "I Don't Care (Ed Sheeran and Justin Bieber song) - Wikipediahttps://en.wikipedia.org › wiki › I_Don't_Care_(Ed_Sheeran_and_Justin_B..."
+    "Href": "#pkg-examples",
+    "Text": "Examples"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Max_Martin\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQBQ\u0026usg=AOvVaw0gYP5fT1AKFwGeJmvqh3ga",
-    "Text": "Max Martin"
+    "Href": "https://golang.org/doc/articles/json_and_go.html",
+    "Text": "https://golang.org/doc/articles/json_and_go.html"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Shellback_(record_producer)\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQBg\u0026usg=AOvVaw3DVrTHyaCp_BBdidWq92Dh",
-    "Text": "Shellback"
+    "Href": "#Compact",
+    "Text": "func Compact(dst *bytes.Buffer, src []byte) error"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Fred_again\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQBw\u0026usg=AOvVaw34AMjxPfz3Kqnn12ZnQWoW",
-    "Text": "Fred"
+    "Href": "#HTMLEscape",
+    "Text": "func HTMLEscape(dst *bytes.Buffer, src []byte)"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Ed_Sheeran\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQCQ\u0026usg=AOvVaw0fAmiK_CbjErLYfGTu1HpM",
-    "Text": "Ed Sheeran"
+    "Href": "#Indent",
+    "Text": "func Indent(dst *bytes.Buffer, src []byte, prefix, indent string) error"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Justin_Bieber\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQCg\u0026usg=AOvVaw1OaIrEMk0WJQ-zwP3KnaGK",
-    "Text": "Justin Bieber"
+    "Href": "#Marshal",
+    "Text": "func Marshal(v interface{}) ([]byte, error)"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Max_Martin\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQCw\u0026usg=AOvVaw0YGJG3qxwcgOFWOw-rDnyI",
-    "Text": "Max Martin"
+    "Href": "#MarshalIndent",
+    "Text": "func MarshalIndent(v interface{}, prefix, indent string) ([]byte, error)"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Shellback_(record_producer)\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQDA\u0026usg=AOvVaw3cyHjp3wf7ob58PxOoAeXM",
-    "Text": "Shellback"
+    "Href": "#Unmarshal",
+    "Text": "func Unmarshal(data []byte, v interface{}) error"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Poo_Bear\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQDQ\u0026usg=AOvVaw3hoMqr4vJdeFxjzo7NNOOu",
-    "Text": "Poo Bear"
+    "Href": "#Valid",
+    "Text": "func Valid(data []byte) bool"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Fred_Gibson_(record_producer)\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQDg\u0026usg=AOvVaw0H_I7MeZpzzE_oZyKkzr27",
-    "Text": "Fred Gibson"
+    "Href": "#Decoder",
+    "Text": "type Decoder"
   },
   {
-    "Href": "/url?q=https://en.wikipedia.org/wiki/Electropop\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qs2YwBnoECAIQEA\u0026usg=AOvVaw19WHYfJNgkKgdEK8W8xtHC",
-    "Text": "Electropop"
+    "Href": "#NewDecoder",
+    "Text": "func NewDecoder(r io.Reader) *Decoder"
   },
   {
-    "Href": "/url?q=https://twitter.com/t%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q6F56BAgEEAE\u0026usg=AOvVaw2xA5oPC_LJJfqoyXB6j15d",
-    "Text": "Tantek \ufffdelikTwitter › t"
+    "Href": "#Decoder.Buffered",
+    "Text": "func (dec *Decoder) Buffered() io.Reader"
   },
   {
-    "Href": "/url?q=https://tantek.com/2019/231/t2/sunday-longrun-tired-legs\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QhlR6BAgEEAM\u0026usg=AOvVaw1taiDmuyXXglsjDKfPi5ym",
-    "Text": "tantek.com/2019/231/t2/su…"
+    "Href": "#Decoder.Decode",
+    "Text": "func (dec *Decoder) Decode(v interface{}) error"
   },
   {
-    "Href": "/url?q=https://twitter.com/t/status/1163706488633856000/photo/1\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qhld6BAgEEAQ\u0026usg=AOvVaw1DxK_F20V98BJbmtjJQW3Z",
-    "Text": "pic.twitter.com/yCzpJA4fw…"
+    "Href": "#Decoder.DisallowUnknownFields",
+    "Text": "func (dec *Decoder) DisallowUnknownFields()"
   },
   {
-    "Href": "/url?q=https://twitter.com/t/status/1163706488633856000%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Etweet\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QglR6BAgEEAU\u0026usg=AOvVaw0d6Hy-iKE3Bzp-KBwo5xy8",
-    "Text": "View on Twitter"
+    "Href": "#Decoder.More",
+    "Text": "func (dec *Decoder) More() bool"
   },
   {
-    "Href": "/url?q=https://duckduckgo.com/%3Ft%3Dhp\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QFjAJegQIARAB\u0026usg=AOvVaw22buuOoDiM6dQnw35glZrp",
-    "Text": "DuckDuck Gohttps://duckduckgo.com › t=hp"
+    "Href": "#Decoder.Token",
+    "Text": "func (dec *Decoder) Token() (Token, error)"
   },
   {
-    "Href": "/url?q=https://support.google.com/webmasters/answer/7489871%3Fhl%3Den\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QvxowCXoECAEQAg\u0026usg=AOvVaw0dsmCSGCwhe7d-Td0DhuK3",
-    "Text": "Learn why"
+    "Href": "#Decoder.UseNumber",
+    "Text": "func (dec *Decoder) UseNumber()"
   },
   {
-    "Href": "/url?q=https://finance.yahoo.com/quote/T%3Fp%3DT\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QFjAKegQIABAB\u0026usg=AOvVaw2KRireBjEkgNhHpPZkVzVP",
-    "Text": "AT\u0026T Inc. (T) Stock Price, Quote, History \u0026 News - Yahoo Financehttps://finance.yahoo.com › quote › T › p=T"
+    "Href": "#Delim",
+    "Text": "type Delim"
   },
   {
-    "Href": "/url?q=https://www.bbc.co.uk/news/education-49410325\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QFjALegQIAxAB\u0026usg=AOvVaw0BnAOiMopzCux6xBaifZpq",
-    "Text": "New T-level study to be worth three A-levels - BBC Newshttps://www.bbc.co.uk › news › education-49410325"
+    "Href": "#Delim.String",
+    "Text": "func (d Delim) String() string"
   },
   {
-    "Href": "/url?q=https://www.wired.com/story/why-a-promising-potent-cancer-therapy-isnt-used-in-the-us/\u0026sa=U\u0026ved=2ahUKEwi877n4mJbkAhVNWxoKHXSkBe8QFjAMegQIBhAB\u0026usg=AOvVaw1sCSMJ86dOzcFyg0PbDzJM",
-    "Text": "Why a Promising, Potent Cancer Therapy Isn't Used in the US | WIREDhttps://www.wired.com › story › why-a-promising-potent-cancer-therapy-is..."
+    "Href": "#Encoder",
+    "Text": "type Encoder"
   },
   {
-    "Href": "/search?q=t\u0026ie=UTF-8\u0026ei=X2ReXfzDD822afTIlvgO\u0026start=10\u0026sa=N",
-    "Text": "Next \u003e"
+    "Href": "#NewEncoder",
+    "Text": "func NewEncoder(w io.Writer) *Encoder"
   },
   {
-    "Href": "/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253Dt%2526oq%253Dt%252B%2526aqs%253Dchrome..69i57j69i59j69i60l2j69i61j69i60.695j0j4%2526sourceid%253Dchrome%2526ie%253DUTF-8%26hl%3Den\u0026sa=U\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Qxs8CCFM\u0026usg=AOvVaw2aeAWyhrI4huCmA9EUrHCm",
-    "Text": "Sign in"
+    "Href": "#Encoder.Encode",
+    "Text": "func (enc *Encoder) Encode(v interface{}) error"
   },
   {
-    "Href": "https://www.google.com/preferences?hl=en\u0026fg=1\u0026sa=X\u0026ved=0ahUKEwi877n4mJbkAhVNWxoKHXSkBe8Q5fUCCFQ",
-    "Text": "Settings"
+    "Href": "#Encoder.SetEscapeHTML",
+    "Text": "func (enc *Encoder) SetEscapeHTML(on bool)"
   },
   {
-    "Href": "//www.google.com/intl/en_zz/policies/privacy/?fg=1",
-    "Text": "Privacy"
+    "Href": "#Encoder.SetIndent",
+    "Text": "func (enc *Encoder) SetIndent(prefix, indent string)"
   },
   {
-    "Href": "//www.google.com/intl/en_zz/policies/terms/?fg=1",
-    "Text": "Terms"
+    "Href": "#InvalidUTF8Error",
+    "Text": "type InvalidUTF8Error"
+  },
+  {
+    "Href": "#InvalidUTF8Error.Error",
+    "Text": "func (e *InvalidUTF8Error) Error() string"
+  },
+  {
+    "Href": "#InvalidUnmarshalError",
+    "Text": "type InvalidUnmarshalError"
+  },
+  {
+    "Href": "#InvalidUnmarshalError.Error",
+    "Text": "func (e *InvalidUnmarshalError) Error() string"
+  },
+  {
+    "Href": "#Marshaler",
+    "Text": "type Marshaler"
+  },
+  {
+    "Href": "#MarshalerError",
+    "Text": "type MarshalerError"
+  },
+  {
+    "Href": "#MarshalerError.Error",
+    "Text": "func (e *MarshalerError) Error() string"
+  },
+  {
+    "Href": "#Number",
+    "Text": "type Number"
+  },
+  {
+    "Href": "#Number.Float64",
+    "Text": "func (n Number) Float64() (float64, error)"
+  },
+  {
+    "Href": "#Number.Int64",
+    "Text": "func (n Number) Int64() (int64, error)"
+  },
+  {
+    "Href": "#Number.String",
+    "Text": "func (n Number) String() string"
+  },
+  {
+    "Href": "#RawMessage",
+    "Text": "type RawMessage"
+  },
+  {
+    "Href": "#RawMessage.MarshalJSON",
+    "Text": "func (m RawMessage) MarshalJSON() ([]byte, error)"
+  },
+  {
+    "Href": "#RawMessage.UnmarshalJSON",
+    "Text": "func (m *RawMessage) UnmarshalJSON(data []byte) error"
+  },
+  {
+    "Href": "#SyntaxError",
+    "Text": "type SyntaxError"
+  },
+  {
+    "Href": "#SyntaxError.Error",
+    "Text": "func (e *SyntaxError) Error() string"
+  },
+  {
+    "Href": "#Token",
+    "Text": "type Token"
+  },
+  {
+    "Href": "#UnmarshalFieldError",
+    "Text": "type UnmarshalFieldError"
+  },
+  {
+    "Href": "#UnmarshalFieldError.Error",
+    "Text": "func (e *UnmarshalFieldError) Error() string"
+  },
+  {
+    "Href": "#UnmarshalTypeError",
+    "Text": "type UnmarshalTypeError"
+  },
+  {
+    "Href": "#UnmarshalTypeError.Error",
+    "Text": "func (e *UnmarshalTypeError) Error() string"
+  },
+  {
+    "Href": "#Unmarshaler",
+    "Text": "type Unmarshaler"
+  },
+  {
+    "Href": "#UnsupportedTypeError",
+    "Text": "type UnsupportedTypeError"
+  },
+  {
+    "Href": "#UnsupportedTypeError.Error",
+    "Text": "func (e *UnsupportedTypeError) Error() string"
+  },
+  {
+    "Href": "#UnsupportedValueError",
+    "Text": "type UnsupportedValueError"
+  },
+  {
+    "Href": "#UnsupportedValueError.Error",
+    "Text": "func (e *UnsupportedValueError) Error() string"
+  },
+  {
+    "Href": "#example_Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "#example_Decoder_Decode_stream",
+    "Text": "Decoder.Decode (Stream)"
+  },
+  {
+    "Href": "#example_Decoder_Token",
+    "Text": "Decoder.Token"
+  },
+  {
+    "Href": "#example_Indent",
+    "Text": "Indent"
+  },
+  {
+    "Href": "#example_Marshal",
+    "Text": "Marshal"
+  },
+  {
+    "Href": "#example_MarshalIndent",
+    "Text": "MarshalIndent"
+  },
+  {
+    "Href": "#example_RawMessage_marshal",
+    "Text": "RawMessage (Marshal)"
+  },
+  {
+    "Href": "#example_RawMessage_unmarshal",
+    "Text": "RawMessage (Unmarshal)"
+  },
+  {
+    "Href": "#example_Unmarshal",
+    "Text": "Unmarshal"
+  },
+  {
+    "Href": "#example_Valid",
+    "Text": "Valid"
+  },
+  {
+    "Href": "#example__customMarshalJSON",
+    "Text": "Package (CustomMarshalJSON)"
+  },
+  {
+    "Href": "#example__textMarshalJSON",
+    "Text": "Package (TextMarshalJSON)"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go",
+    "Text": "decode.go"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go",
+    "Text": "encode.go"
+  },
+  {
+    "Href": "/src/encoding/json/fold.go",
+    "Text": "fold.go"
+  },
+  {
+    "Href": "/src/encoding/json/indent.go",
+    "Text": "indent.go"
+  },
+  {
+    "Href": "/src/encoding/json/scanner.go",
+    "Text": "scanner.go"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go",
+    "Text": "stream.go"
+  },
+  {
+    "Href": "/src/encoding/json/tables.go",
+    "Text": "tables.go"
+  },
+  {
+    "Href": "/src/encoding/json/tags.go",
+    "Text": "tags.go"
+  },
+  {
+    "Href": "/src/encoding/json/indent.go?s=284:333#L1",
+    "Text": "Compact"
+  },
+  {
+    "Href": "#Compact",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/bytes/",
+    "Text": "bytes"
+  },
+  {
+    "Href": "/pkg/bytes/#Buffer",
+    "Text": "Buffer"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=7572:7618#L184",
+    "Text": "HTMLEscape"
+  },
+  {
+    "Href": "#HTMLEscape",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/bytes/",
+    "Text": "bytes"
+  },
+  {
+    "Href": "/pkg/bytes/#Buffer",
+    "Text": "Buffer"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/src/encoding/json/indent.go?s=2192:2263#L69",
+    "Text": "Indent"
+  },
+  {
+    "Href": "#Indent",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/bytes/",
+    "Text": "bytes"
+  },
+  {
+    "Href": "/pkg/bytes/#Buffer",
+    "Text": "Buffer"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=6430:6473#L147",
+    "Text": "Marshal"
+  },
+  {
+    "Href": "#Marshal",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=6923:6995#L165",
+    "Text": "MarshalIndent"
+  },
+  {
+    "Href": "#MarshalIndent",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=4041:4089#L85",
+    "Text": "Unmarshal"
+  },
+  {
+    "Href": "#Unmarshal",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/scanner.go?s=648:676#L9",
+    "Text": "Valid"
+  },
+  {
+    "Href": "#Valid",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#bool",
+    "Text": "bool"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=276:517#L4",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "¶"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=683:720#L21",
+    "Text": "NewDecoder"
+  },
+  {
+    "Href": "#NewDecoder",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/io/",
+    "Text": "io"
+  },
+  {
+    "Href": "/pkg/io/#Reader",
+    "Text": "Reader"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=2242:2282#L73",
+    "Text": "Buffered"
+  },
+  {
+    "Href": "#Decoder.Buffered",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "/pkg/io/",
+    "Text": "io"
+  },
+  {
+    "Href": "/pkg/io/#Reader",
+    "Text": "Reader"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=1425:1472#L39",
+    "Text": "Decode"
+  },
+  {
+    "Href": "#Decoder.Decode",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=1132:1175#L32",
+    "Text": "DisallowUnknownFields"
+  },
+  {
+    "Href": "#Decoder.DisallowUnknownFields",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=12225:12256#L469",
+    "Text": "More"
+  },
+  {
+    "Href": "#Decoder.More",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "/pkg/builtin/#bool",
+    "Text": "bool"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=9366:9408#L354",
+    "Text": "Token"
+  },
+  {
+    "Href": "#Decoder.Token",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "#Token",
+    "Text": "Token"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=863:894#L27",
+    "Text": "UseNumber"
+  },
+  {
+    "Href": "#Decoder.UseNumber",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Decoder",
+    "Text": "Decoder"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=8771:8786#L337",
+    "Text": "Delim"
+  },
+  {
+    "Href": "#Delim",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#rune",
+    "Text": "rune"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=8788:8818#L339",
+    "Text": "String"
+  },
+  {
+    "Href": "#Delim.String",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Delim",
+    "Text": "Delim"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=4310:4461#L165",
+    "Text": "Encoder"
+  },
+  {
+    "Href": "#Encoder",
+    "Text": "¶"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=4517:4554#L176",
+    "Text": "NewEncoder"
+  },
+  {
+    "Href": "#NewEncoder",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/io/",
+    "Text": "io"
+  },
+  {
+    "Href": "/pkg/io/#Writer",
+    "Text": "Writer"
+  },
+  {
+    "Href": "#Encoder",
+    "Text": "Encoder"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=4790:4837#L185",
+    "Text": "Encode"
+  },
+  {
+    "Href": "#Encoder.Encode",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Encoder",
+    "Text": "Encoder"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=6392:6434#L237",
+    "Text": "SetEscapeHTML"
+  },
+  {
+    "Href": "#Encoder.SetEscapeHTML",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Encoder",
+    "Text": "Encoder"
+  },
+  {
+    "Href": "/pkg/builtin/#bool",
+    "Text": "bool"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=5869:5921#L225",
+    "Text": "SetIndent"
+  },
+  {
+    "Href": "#Encoder.SetIndent",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Encoder",
+    "Text": "Encoder"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=9214:9304#L244",
+    "Text": "InvalidUTF8Error"
+  },
+  {
+    "Href": "#InvalidUTF8Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=9306:9347#L248",
+    "Text": "Error"
+  },
+  {
+    "Href": "#InvalidUTF8Error.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#InvalidUTF8Error",
+    "Text": "InvalidUTF8Error"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=6224:6280#L144",
+    "Text": "InvalidUnmarshalError"
+  },
+  {
+    "Href": "#InvalidUnmarshalError",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/reflect/",
+    "Text": "reflect"
+  },
+  {
+    "Href": "/pkg/reflect/#Type",
+    "Text": "Type"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=6282:6328#L148",
+    "Text": "Error"
+  },
+  {
+    "Href": "#InvalidUnmarshalError.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#InvalidUnmarshalError",
+    "Text": "InvalidUnmarshalError"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=8383:8442#L215",
+    "Text": "Marshaler"
+  },
+  {
+    "Href": "#Marshaler",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=9506:9567#L253",
+    "Text": "MarshalerError"
+  },
+  {
+    "Href": "#MarshalerError",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/reflect/",
+    "Text": "reflect"
+  },
+  {
+    "Href": "/pkg/reflect/#Type",
+    "Text": "Type"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=9569:9608#L258",
+    "Text": "Error"
+  },
+  {
+    "Href": "#MarshalerError.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#MarshalerError",
+    "Text": "MarshalerError"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=7033:7051#L177",
+    "Text": "Number"
+  },
+  {
+    "Href": "#Number",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=7201:7243#L183",
+    "Text": "Float64"
+  },
+  {
+    "Href": "#Number.Float64",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Number",
+    "Text": "Number"
+  },
+  {
+    "Href": "/pkg/builtin/#float64",
+    "Text": "float64"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=7332:7370#L188",
+    "Text": "Int64"
+  },
+  {
+    "Href": "#Number.Int64",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Number",
+    "Text": "Number"
+  },
+  {
+    "Href": "/pkg/builtin/#int64",
+    "Text": "int64"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=7103:7134#L180",
+    "Text": "String"
+  },
+  {
+    "Href": "#Number.String",
+    "Text": "¶"
+  },
+  {
+    "Href": "#Number",
+    "Text": "Number"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=6620:6642#L244",
+    "Text": "RawMessage"
+  },
+  {
+    "Href": "#RawMessage",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=6696:6745#L247",
+    "Text": "MarshalJSON"
+  },
+  {
+    "Href": "#RawMessage.MarshalJSON",
+    "Text": "¶"
+  },
+  {
+    "Href": "#RawMessage",
+    "Text": "RawMessage"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=6857:6910#L255",
+    "Text": "UnmarshalJSON"
+  },
+  {
+    "Href": "#RawMessage.UnmarshalJSON",
+    "Text": "¶"
+  },
+  {
+    "Href": "#RawMessage",
+    "Text": "RawMessage"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/scanner.go?s=1150:1276#L30",
+    "Text": "SyntaxError"
+  },
+  {
+    "Href": "#SyntaxError",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#int64",
+    "Text": "int64"
+  },
+  {
+    "Href": "/src/encoding/json/scanner.go?s=1278:1314#L35",
+    "Text": "Error"
+  },
+  {
+    "Href": "#SyntaxError.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#SyntaxError",
+    "Text": "SyntaxError"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/stream.go?s=7368:7390#L275",
+    "Text": "Token"
+  },
+  {
+    "Href": "#Token",
+    "Text": "¶"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=5796:5892#L132",
+    "Text": "UnmarshalFieldError"
+  },
+  {
+    "Href": "#UnmarshalFieldError",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/pkg/reflect/",
+    "Text": "reflect"
+  },
+  {
+    "Href": "/pkg/reflect/#Type",
+    "Text": "Type"
+  },
+  {
+    "Href": "/pkg/reflect/",
+    "Text": "reflect"
+  },
+  {
+    "Href": "/pkg/reflect/#StructField",
+    "Text": "StructField"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=5894:5938#L138",
+    "Text": "Error"
+  },
+  {
+    "Href": "#UnmarshalFieldError.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#UnmarshalFieldError",
+    "Text": "UnmarshalFieldError"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=4919:5301#L113",
+    "Text": "UnmarshalTypeError"
+  },
+  {
+    "Href": "#UnmarshalTypeError",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/pkg/reflect/",
+    "Text": "reflect"
+  },
+  {
+    "Href": "/pkg/reflect/#Type",
+    "Text": "Type"
+  },
+  {
+    "Href": "/pkg/builtin/#int64",
+    "Text": "int64"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=5303:5346#L121",
+    "Text": "Error"
+  },
+  {
+    "Href": "#UnmarshalTypeError.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#UnmarshalTypeError",
+    "Text": "UnmarshalTypeError"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/decode.go?s=4747:4806#L107",
+    "Text": "Unmarshaler"
+  },
+  {
+    "Href": "#Unmarshaler",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/builtin/#byte",
+    "Text": "byte"
+  },
+  {
+    "Href": "/pkg/builtin/#error",
+    "Text": "error"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=8550:8605#L221",
+    "Text": "UnsupportedTypeError"
+  },
+  {
+    "Href": "#UnsupportedTypeError",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/reflect/",
+    "Text": "reflect"
+  },
+  {
+    "Href": "/pkg/reflect/#Type",
+    "Text": "Type"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=8607:8652#L225",
+    "Text": "Error"
+  },
+  {
+    "Href": "#UnsupportedTypeError.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#UnsupportedTypeError",
+    "Text": "UnsupportedTypeError"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=8711:8783#L229",
+    "Text": "UnsupportedValueError"
+  },
+  {
+    "Href": "#UnsupportedValueError",
+    "Text": "¶"
+  },
+  {
+    "Href": "/pkg/reflect/",
+    "Text": "reflect"
+  },
+  {
+    "Href": "/pkg/reflect/#Value",
+    "Text": "Value"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/src/encoding/json/encode.go?s=8785:8831#L234",
+    "Text": "Error"
+  },
+  {
+    "Href": "#UnsupportedValueError.Error",
+    "Text": "¶"
+  },
+  {
+    "Href": "#UnsupportedValueError",
+    "Text": "UnsupportedValueError"
+  },
+  {
+    "Href": "/pkg/builtin/#string",
+    "Text": "string"
+  },
+  {
+    "Href": "/doc/copyright.html",
+    "Text": "Copyright"
+  },
+  {
+    "Href": "/doc/tos.html",
+    "Text": "Terms of Service"
+  },
+  {
+    "Href": "http://www.google.com/intl/en/policies/privacy/",
+    "Text": "Privacy Policy"
+  },
+  {
+    "Href": "http://golang.org/issues/new?title=x/website:",
+    "Text": "Report a website issue"
+  },
+  {
+    "Href": "https://google.com",
+    "Text": "Supported by Google"
   }
 ]
