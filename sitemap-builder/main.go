@@ -7,7 +7,15 @@ import (
 	"net/url"
 	"./htmllinkparser"
 	"strings"
+	"encoding/json"
+	"io/ioutil"
 )
+
+type page struct {
+	From string `json:"from"`
+	NumberLink int `json:"numberLink"`
+	Urls []string `json:"urls"`
+}
 
 func removeDuplicate(s []string) []string {
 	seen := make(map[string]struct{}, len(s))
@@ -58,12 +66,13 @@ func get(url string) ([]htmllinkparser.Link, string) {
 	return links, baseUrl(response.Request.URL)
 }
 
-func mapSite(basUrl string) []string {
+func mapSite(basUrl string, baseDepth int) []string {
 	var mappedUrls []string
 	mappedUrls = append(mappedUrls, basUrl)
 	urlSeen := make(map[string]struct{})
-	
-	for i := 0; i != len(mappedUrls); i++ {
+
+	depth:= baseDepth
+	for i := 0; i != len(mappedUrls) && depth >= 0; i, depth = i + 1, depth - 1 {
 		for _, l := range pruneUrl(get(mappedUrls[i])) {
 			if _, ok := urlSeen[l]; !ok {
 				urlSeen[l] = struct{}{}
@@ -74,10 +83,33 @@ func mapSite(basUrl string) []string {
 	return mappedUrls
 }
 
+func writeToJson(siteUrl string, urls []string) {
+	ur, err := url.Parse(siteUrl)
+	if err != nil {
+		panic(err)
+	}
+	baseUrl := baseUrl(ur)
+	page := page{
+		From: baseUrl,
+		NumberLink: len(urls),
+		Urls: urls,
+	}
+	byteArr, err := json.MarshalIndent(page, " ", " ")
+	if err != nil {
+		panic(err)
+	}
+	err = ioutil.WriteFile(ur.Host + "-site-map.json", byteArr, 0644)
+	if err != nil {
+		panic(err)
+	}
+}
+
 func main() {
-	url := flag.String("url", "https://discordapp.com/", "URL to parse")
+	url := flag.String("url", "https://github.com", "URL to parse")
+	depth := flag.Int("depth", 40, "DEPTH of sub url")
 	flag.Parse()
-	urls := mapSite(*url)
-	urls = removeDuplicate(urls) // to be sure
-	fmt.Printf("Found %d mapped links / %+v", len(urls), urls)
+	urls := mapSite(*url, *depth)
+	urls = removeDuplicate(urls) // with double baseUrl getting there baseUrl/ & baseUrl
+	fmt.Printf("Found %d urls:\n=> %+v\n", len(urls), urls)
+	writeToJson(*url, urls)
 }
